@@ -153,6 +153,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bg-repeat{
 	background:repeat;
 }
+.bg-t-edge{
+	background: top no-repeat;
+}
 
 
 /* Dark theme */
@@ -234,6 +237,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Column No Gutters */
+
+.row-no-gutters{
+	margin-right:0;
+	margin-left:0;
+}
+.row.row-no-gutters > [class^="col-"],.row.row-no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
 /* Bloc text custom styling */
 
 #bloc-1 h1{
@@ -243,6 +257,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-1 h3{
 	font-weight: 900;
 	font-family: Montserrat;
+	font-size: 30px;
 }
 #bloc-2 h3{
 	font-family: 'Josefin Sans';
