@@ -150,6 +150,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	-o-background-size: auto!important;
 	background-size: auto!important;
 }
+.bg-center{
+	-webkit-background-size: auto;
+}
 .bg-repeat{
 	background:repeat;
 }
