@@ -399,27 +399,6 @@ button{
 	padding: 3px 20px;
 }
 
-/* = Icons
--------------------------------------------------------------- */
-.icon-md{
-	font-size:30px!important;
-}
-.icon-round{
-	margin:0 auto;
-	border:2px solid transparent;
-	border-radius: 50%;
-	padding: 32px 30px 26px 30px;
-	min-width:80px;
-}
-.icon-round,.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
-	min-width: 92px;
-}
-.icon-round.icon-lg,.icon-square.icon-lg,.icon-rounded.icon-lg{
-	min-width: 122px;
-}
-.icon-round.icon-xl,.icon-square.icon-xl,.icon-rounded.icon-xl{
-	min-width: 162px;
-}
 
 
 /* = Text & Icon Styles
@@ -573,22 +552,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Bloc image backgrounds */
 
 .bg-tile-d-bg{
-	background-image:url('img/tile-d-bg.png');
+	background-image:url("img/tile-d-bg.png");
 }
 .bg-forrest{
-	background-image:url('img/forrest.jpg');
+	background-image:url("img/forrest.jpg");
 }
 .bg-03bayeux{
-	background-image:url('img/03bayeux.jpg');
+	background-image:url("img/03bayeux.jpg");
 }
 .bg-Peterborough-Chronicle-firstpage{
-	background-image:url('img/Peterborough.Chronicle.firstpage.jpg');
+	background-image:url("img/Peterborough.Chronicle.firstpage.jpg");
 }
 .bg-Culture-20thin{
-	background-image:url('img/Culture%20thin.jpg');
+	background-image:url("img/Culture%20thin.jpg");
 }
-.bg-shepherd-sheep-12{
-	background-image:url('img/shepherd-sheep-12.jpg');
+.bg-ForHome{
+	background-image:url('img/ForHome.jpg');
 }
 
 
