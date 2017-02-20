@@ -259,32 +259,32 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-1 h3{
+#bloc-2 h3{
 	font-weight: 300;
 	font-family: Vollkorn;
 	font-size: 90px;
 }
-#bloc-1 p{
+#bloc-2 p{
 	font-weight: 700;
 	font-family: Vollkorn;
 	font-size: 30px;
 }
-#bloc-2 h3{
+#bloc-3 h3{
 	font-family: 'Josefin Sans';
 	font-size: 50px;
 }
-#bloc-7 h1{
+#bloc-8 h1{
 	font-weight: 700;
 	font-family: Vollkorn;
 	font-size: 80px;
 }
-#bloc-7 h3{
+#bloc-8 h3{
 	font-size: 36px;
 }
-#bloc-9 h3{
+#bloc-10 h3{
 	font-size: 50px;
 }
-#bloc-9 p{
+#bloc-10 p{
 	font-size: 20px;
 }
 
@@ -1018,19 +1018,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .nav-invert .sidebar-nav .close-special-menu{
 	left:200px;
 }
-#bloc-1 h3{
+#bloc-2 h3{
 	font-size: 50px;
 }
-#bloc-1 p{
+#bloc-2 p{
 	font-size: 20px;
 }
-#bloc-2 h3{
+#bloc-3 h3{
 	font-size: 30px;
 }
-#bloc-7 h1{
+#bloc-8 h1{
 	font-size: 60px;
 }
-#bloc-7 h3{
+#bloc-8 h3{
 	font-size: 20px;
 }
 /* = Text Mobile Alignment Classes
