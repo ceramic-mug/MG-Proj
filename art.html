@@ -15,6 +15,8 @@
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
     <title>Art</title>
 
     
@@ -27,23 +29,42 @@
 <!-- Main container -->
 <div class="page-container">
     
-<!-- bloc-0 -->
-<div class="bloc bgc-white bg-tile-d-bg l-bloc bg-repeat bloc-bg-texture texture-fabric" id="bloc-0">
-	<div class="container bloc-sm">
+<!-- bloc-7 -->
+<div class="bloc bloc-fill-screen bloc-bg-texture texture-paper bgc-white l-bloc" id="bloc-7">
+	<div class="container fill-bloc-top-edge">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/BritainSilPng.png" alt="logo" height="61" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/BritainSilPng.png" height="71" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="navbar-collapse navbar-1 collapse">
-				<ul class="site-navigation nav navbar-nav">
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav pull-right">
 					<li>
 						<a href="index.html">Home</a>
 					</li>
 					<li>
-						<a href="art.html">Art</a>
+						<div class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Art<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="bayeux-tapestry.html">Bayeux Tapestry</a>
+								</li>
+								<li>
+									<a href="fuller-brooch.html">Fuller Brooch</a>
+								</li>
+								<li>
+									<a href="franks-casket.html">Franks Casket</a>
+								</li>
+								<li>
+									<a href="st-cuthbert-gospel.html">St. Cuthbert Gospel</a>
+								</li>
+								<li>
+									<a href="reliquary-cross.html">Reliquary Cross</a>
+								</li>
+							</ul>
+						</div>
 					</li>
 					<li>
 						<a href="culture.html">Culture</a>
@@ -58,16 +79,74 @@
 			</div>
 		</nav>
 	</div>
+	<div class="container">
+		<div class="row animated vanishIn ">
+			<div class="col-sm-12">
+				<h1 class="text-center hero-bloc-text ">
+					<i>art is life</i>
+				</h1>
+				<h3 class="text-center mg-lg hero-bloc-text-sub ">
+					<strong>// and life becomes history //</strong>
+				</h3>
+				<div class="text-center">
+					<a class="btn-wire btn" onclick="scrollToTarget('#bloc-7')">Discover</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container fill-bloc-bottom-edge">
+		<div class="row">
+			<div class="col-sm-12">
+				<a id="scroll-hero" class="blocs-hero-btn-dwn"><span class="fa fa-chevron-down"></span></a>
+			</div>
+		</div>
+	</div>
 </div>
-<!-- bloc-0 END -->
+<!-- bloc-7 END -->
+
+<!-- bloc-8 -->
+<div class="bloc l-bloc bgc-white" id="bloc-8">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<form id="form_20863" novalidate>
+					<div class="form-group">
+						<textarea class="form-control" rows="4" cols="50" id="textarea_2767"></textarea>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-8 END -->
+
+<!-- bloc-9 -->
+<div class="bloc bg-Bayeux-20Rectangls tc-white bgc-white" id="bloc-9">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="mg-md text-center  tc-white lg-shadow">
+					<strong>The Bayeux Tapestry</strong>
+				</h3>
+				<p class="text-justify  lg-shadow text-left-xs">
+					The Bayeux Tapestry is a long, narrow work of embroidery that graphically displays the oral history of the conquest of England. The original tapestry is on display at Bayeux in Normandy, France
+				</p>
+				<div class="text-center">
+					<a href="index.html" class="btn btn-white btn-glossy">Discover</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-9 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
-<!-- Footer - bloc-7 -->
-<div class="bloc bg-repeat bgc-white bloc-bg-texture texture-fabric" id="bloc-7">
+<!-- Footer - bloc-10 -->
+<div class="bloc bg-repeat bgc-white bloc-bg-texture texture-fabric" id="bloc-10">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-3">
@@ -93,7 +172,7 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-7 END -->
+<!-- Footer - bloc-10 END -->
 
 </div>
 <!-- Main container END -->
