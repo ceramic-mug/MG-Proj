@@ -294,6 +294,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-9 p{
 	font-size: 20px;
 }
+#bloc-11 h3{
+	font-weight: 300;
+	font-family: Pacifico;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -472,10 +476,6 @@ button{
 .btn-wire:hover{
 	background:transparent!important;
 	border:2px solid transparent;
-}
-.btn-xl{
-	padding: 16px 40px;
-	font-size: 28px;
 }
 .a-btn{
 	padding: 6px 10px 6px 0;
