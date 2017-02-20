@@ -267,9 +267,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #bloc-2 h3{
-	font-weight: 300;
-	font-family: Vollkorn;
 	font-size: 90px;
+	font-weight: 100;
+	font-family: Lobster;
 }
 #bloc-2 p{
 	font-weight: 700;
@@ -296,7 +296,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-11 h3{
 	font-weight: 300;
-	font-family: Pacifico;
+	font-family: Lobster;
 }
 
 /* = NavBar
@@ -673,8 +673,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-Culture-20thin{
 	background-image:url("img/Culture%20thin.jpg");
 }
-.bg-mossy-stone-wall-joe-k{
-	background-image:url('img/mossy-stone-wall-joe-k.jpg');
+.bg-stone-wall-texture{
+	background-image:url('img/stone-wall-texture.jpg');
 }
 .bg-03bayeux{
 	background-image:url('img/03bayeux.jpg');
