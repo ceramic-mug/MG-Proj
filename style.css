@@ -39,14 +39,14 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
-.bloc-xxl{
-	padding:200px 50px;
-}
 .bloc-xl{
 	padding:150px 50px;
 }
 .bloc-lg{
 	padding:100px 50px;
+}
+.bloc-md{
+	padding:50px;
 }
 .bloc-sm{
 	padding:20px 50px;
