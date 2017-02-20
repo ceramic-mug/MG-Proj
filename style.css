@@ -290,19 +290,25 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-9 h2{
 	font-weight: 300;
+	font-family: 'Abril Fatface';
 	font-size: 50px;
-	font-family: Abril Fatface;
 }
-#bloc-10 h2{
+#bloc-10 p{
+	font-size: 18.000000953674316px;
+}
+#bloc-11 h2{
 	font-weight: 100;
 	font-family: 'Abril Fatface';
 	font-size: 50px;
 }
-#bloc-11 h2{
-	font-size: 50px;
-	font-family: Abril Fatface;
+#bloc-12 p{
+	font-size: 18.000000953674316px;
 }
-#bloc-12 h3{
+#bloc-13 h2{
+	font-family: 'Abril Fatface';
+	font-size: 50px;
+}
+#bloc-14 h3{
 	font-weight: 700;
 	font-family: Lobster;
 }
@@ -628,6 +634,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .blocs-hero-btn-dwn{
 	background-color:rgba(0,0,0,0.0);
 }
+.statement-bloc-text{
+	line-height:38px;
+	font-style:italic;
+	font-size:28px;
+	text-align:center;
+	font-weight:lighter;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -679,22 +692,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/Culture%20thin.jpg");
 }
 .bg-stone-wall-texture{
-	background-image:url('img/stone-wall-texture.jpg');
+	background-image:url("img/stone-wall-texture.jpg");
 }
 .bg-03bayeux{
-	background-image:url('img/03bayeux.jpg');
+	background-image:url("img/03bayeux.jpg");
 }
 .bg-Fuller-20Brooch{
-	background-image:url('img/Fuller%20Brooch.jpg');
+	background-image:url("img/Fuller%20Brooch.jpg");
 }
 .bg-Bayeux-20Rectangls{
-	background-image:url('img/Bayeux%20Rectangls.jpg');
+	background-image:url("img/Bayeux%20Rectangls.jpg");
 }
 .bg-Fuller-20Brooch{
-	background-image:url('img/Fuller%20Brooch.png');
+	background-image:url("img/Fuller%20Brooch.png");
 }
 .bg-Franks-Casket-rear{
-	background-image:url('img/Franks_Casket_rear.jpg');
+	background-image:url("img/Franks_Casket_rear.jpg");
 }
 
 
