@@ -294,9 +294,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 50px;
 }
 #bloc-10 h3{
-	font-size: 35px;
 	font-family: Lato;
 	font-weight: 300;
+	font-size: 35px;
 }
 #bloc-10 p{
 	font-size: 18.000000953674316px;
@@ -319,6 +319,20 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 50px;
 }
 #bloc-14 h3{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 35px;
+}
+#bloc-15 p{
+	font-family: 'Abril Fatface';
+	font-size: 50px;
+}
+#bloc-16 h3{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 35px;
+}
+#bloc-17 h3{
 	font-weight: 700;
 	font-family: Lobster;
 }
@@ -657,6 +671,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .Bar2{
 	background:linear-gradient(346deg, #5A5A5A, #FFFFFF);
 }
+.Bar3{
+	background:linear-gradient(348deg, #1C0000, #9D884F);
+}
+.Bloc4{
+	background:linear-gradient(237deg, #7F5710, #F6EAD0);
+	border-style:none;
+}
+.bloc4{
+	background:linear-gradient(306deg, #8E6B2A, #794E05);
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -677,6 +701,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-white{
 	color:#FFFFFF!important;
 }
+.tc-champagne{
+	color:#FFDB9F!important;
+}
+.tc-burnt-umber{
+	color:#8F3222!important;
+}
 /* Button colour styles */
 
 .btn-white{
@@ -694,6 +724,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-white:hover{
 	color:#cccccc!important;
+}
+.ltc-burnt-umber{
+	color:#8F3222!important;
+}
+.ltc-burnt-umber:hover{
+	color:#72281b!important;
 }
 
 /* Bloc image backgrounds */
@@ -730,6 +766,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-Franks-Casket-rear{
 	background-image:url("img/Franks_Casket_rear.jpg");
+}
+.bg-Reliquary-20Cross2{
+	background-image:url('img/Reliquary%20Cross2.jpg');
 }
 
 
