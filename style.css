@@ -648,30 +648,36 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Background colour styles */
 
 .bgc-white{
-	background-color:#ffffff;
+	background-color:#FFFFFF;
+}
+.bgc-taupe-gray{
+	background-color:#8E8E8E;
+}
+.bgc-sienna{
+	background-color:#832711;
 }
 /* Text colour styles */
 
 .tc-white{
-	color:#ffffff!important;
+	color:#FFFFFF!important;
 }
 /* Button colour styles */
 
 .btn-white{
-	background-color:#ffffff;
-	color:rgba(0,0,0,.4)!important;
+	background:#FFFFFF;
+	color:rgba(0,0,0,.5)!important;
 }
 .btn-white:hover{
-	background-color:#dedede;
-	color:rgba(0,0,0,.4)!important;
+	background:#cccccc;
+	color:rgba(0,0,0,.5)!important;
 }
 /* Link colour styles */
 
 .ltc-white{
-	color:#ffffff!important;
+	color:#FFFFFF!important;
 }
 .ltc-white:hover{
-	color:#ffffff!important;
+	color:#cccccc!important;
 }
 
 /* Bloc image backgrounds */
