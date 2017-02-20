@@ -404,6 +404,15 @@ nav .caret{
 	margin: 6px -5px 0 0!important;
 	float: right;
 }
+/* List Menu Icon */
+.navbar-toggle.menu-icon-normal-list .icon-bar:before{
+	content:"";
+	width:2px;
+	height:2px;
+	margin-left:-4px;
+	background-color:inherit;
+	display: block;
+}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -850,6 +859,153 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   height: 320px;
     }
 }
+
+@media (max-width: 767px){
+	
+/* Nav Special Classes */
+ .nav-special{
+	overflow-y:scroll;
+}
+.nav-special .site-navigation{
+	top:0;
+	left:0;
+	width:100%;
+	position: relative!important;
+	max-width: 100%!important;
+	z-index: 1000;
+}
+ .nav-special .nav > li{
+	width:100%;
+	background: none!important;
+	border:0!important;
+}
+ .nav-special.collapsing{
+	-webkit-transition: none;
+	transition: none;
+	height:100%!important;
+	background: none!important;
+}
+.nav-special .navbar-nav .open .dropdown-menu{
+	position: static;
+	float: none;
+	width: auto;
+	margin-top: 0;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 0;
+}
+.blocsapp-special-menu{
+	position: absolute;
+	z-index:10000;
+}
+.nav-special.fullscreen-nav .caret{
+	border-width: 8px;
+}
+
+/* Animate Menu Symbol */
+.navbar-toggle{
+	transition: all .1s linear;
+}
+.selected-nav{
+	opacity: 0;
+	transform: scale(0.3);
+	transition: all .1s linear;
+}
+
+
+/* Special Menu Close Button */
+.close-special-menu{
+	position: fixed;
+	display: block;
+	width: 25px;
+	height:25px;
+	top:16px;
+	right:10px;
+	z-index: 10000;
+}
+.nav-invert .sidebar-nav .close-special-menu{
+	left:260px;
+}
+.close-special-menu .close-icon{
+	display: block;
+	width:100%;
+	height:1px;
+	background: #fff;
+	transform: rotate(45deg);
+	margin-top:12px;
+}
+.close-special-menu .close-icon:after{
+	content:"";
+	display:inherit;
+	width:inherit;
+	height:inherit;
+	background: inherit;
+	transform: rotate(90deg);
+}
+.lock-scroll{
+	overflow:hidden;
+	transition: background .3s linear;
+}
+.blocsapp-special-menu blocsnav{
+	background: #000;
+}
+.nav-special::-webkit-scrollbar{
+	-webkit-appearance: none;
+	width:0;
+	height:0;
+}
+
+/* Side Bar Navigation */
+ .sidebar-nav{
+	position: fixed;
+	right: -300px;
+	top: 0;
+	bottom: 0;
+	width: 300px;
+	z-index: 1000;
+	transition: all .2s linear;
+}
+.nav-invert .sidebar-nav{
+	right: auto;
+	left: -300px;
+}
+ .sidebar-nav .nav > li a{
+	color:rgba(255,255,255,.8);
+}
+ .sidebar-nav .nav > li a:hover{
+	color:#FFF;
+}
+ .open.sidebar-nav{
+	right: 0;
+	transition: all .2s linear;
+}
+.nav-invert .open.sidebar-nav{
+	left: 0;
+	transition: all .2s linear;
+}
+
+/* Content Tint */
+.content-tint{
+	z-index: -1;
+	transition: background .2s linear;
+}
+.content-tint.on{
+	display: block;
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background: transparent;
+	z-index: 1001;
+	background:rgba(0,0,0,.4);
+}
+.content-tint.on:hover{
+	background:rgba(0,0,0,.1);
+}
+}
+
 @media (max-width: 420px){
 	.bloc-mob-center-text{
 	text-align:center;
@@ -865,7 +1021,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:20%;
 	height:2%;
 }
- #bloc-2 h3{
+ .sidebar-nav{
+	width:230px;
+}
+.nav-invert .sidebar-nav .close-special-menu{
+	left:200px;
+}
+#bloc-2 h3{
 	font-size: 50px;
 }
 #bloc-2 p{
