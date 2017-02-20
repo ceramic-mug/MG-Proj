@@ -267,9 +267,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #bloc-2 h3{
-	font-size: 90px;
 	font-weight: 100;
 	font-family: Lobster;
+	font-size: 90px;
 }
 #bloc-2 p{
 	font-weight: 700;
@@ -291,10 +291,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-9 h3{
 	font-size: 50px;
 }
-#bloc-9 p{
-	font-size: 20px;
+#bloc-10 h3{
+	font-size: 50px;
 }
 #bloc-11 h3{
+	font-size: 50px;
+}
+#bloc-12 h3{
 	font-weight: 300;
 	font-family: Lobster;
 }
@@ -676,8 +679,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-03bayeux{
 	background-image:url('img/03bayeux.jpg');
 }
+.bg-Fuller-20Brooch{
+	background-image:url('img/Fuller%20Brooch.jpg');
+}
 .bg-Bayeux-20Rectangls{
 	background-image:url('img/Bayeux%20Rectangls.jpg');
+}
+.bg-Fuller-20Brooch{
+	background-image:url('img/Fuller%20Brooch.png');
+}
+.bg-Franks-Casket-rear{
+	background-image:url('img/Franks_Casket_rear.jpg');
 }
 
 
@@ -1038,11 +1050,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 #bloc-8 h3{
 	font-size: 20px;
-}
-/* = Text Mobile Alignment Classes
--------------------------------------------------------------- */
-.text-left-xs{
-	text-align:left;
 }
 }
 
