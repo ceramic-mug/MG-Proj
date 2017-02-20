@@ -178,6 +178,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 
+/* Background Effects */
+
+.b-parallax{
+	background-attachment:fixed;
+}
+
+
 /* Dark theme */
 
 .d-bloc{
@@ -281,10 +288,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-8 h3{
 	font-size: 36px;
 }
-#bloc-10 h3{
+#bloc-9 h3{
 	font-size: 50px;
 }
-#bloc-10 p{
+#bloc-9 p{
 	font-size: 20px;
 }
 
@@ -417,13 +424,13 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
-}
-.mg-lg{
-	margin-top:10px;
-	margin-bottom:40px;
 }
 
 /* = Buttons
@@ -511,13 +518,6 @@ button{
 }
 
 
-/* = Forms
--------------------------------------------------------------- */
-
-.form-control{
-	border-color:rgba(0,0,0,.1);
-	box-shadow:none;
-}
 
 /* iFrame */
 
