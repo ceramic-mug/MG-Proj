@@ -288,17 +288,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-8 h3{
 	font-size: 36px;
 }
-#bloc-9 h3{
+#bloc-9 h2{
+	font-weight: 300;
+	font-size: 50px;
+	font-family: Abril Fatface;
+}
+#bloc-10 h2{
+	font-weight: 100;
+	font-family: 'Abril Fatface';
 	font-size: 50px;
 }
-#bloc-10 h3{
+#bloc-11 h2{
 	font-size: 50px;
-}
-#bloc-11 h3{
-	font-size: 50px;
+	font-family: Abril Fatface;
 }
 #bloc-12 h3{
-	font-weight: 300;
+	font-weight: 700;
 	font-family: Lobster;
 }
 
