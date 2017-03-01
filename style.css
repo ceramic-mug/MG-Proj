@@ -119,14 +119,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Group Styles */
 
 .bloc-group{
-	width:100%;
-	display:table;
-	table-layout: fixed;
+	display:flex;
 }
 .bloc-group .bloc{
-	position:relative;
-	display: table-cell;
-	vertical-align: top;
+	flex: 1;
 }
 .bloc-tile-2{
 	width:50%;
@@ -264,75 +260,99 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Column No Gutters */
+
+.row-no-gutters{
+	margin-right:0;
+	margin-left:0;
+}
+.row.row-no-gutters > [class^="col-"],.row.row-no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
 /* Bloc text custom styling */
 
-#bloc-2 h3{
+#bloc-1 h3{
 	font-weight: 100;
 	font-family: Lobster;
 	font-size: 90px;
 }
-#bloc-2 p{
+#bloc-1 p{
 	font-weight: 700;
 	font-family: Vollkorn;
 	font-size: 30px;
 }
-#bloc-3 h3{
+#bloc-2 h3{
 	font-family: 'Josefin Sans';
 	font-size: 50px;
 }
-#bloc-8 h1{
+#bloc-7 h1{
 	font-weight: 700;
 	font-family: Vollkorn;
 	font-size: 80px;
 }
-#bloc-8 h3{
+#bloc-7 h3{
 	font-size: 36px;
 }
 #bloc-9 h2{
 	font-weight: 300;
-	font-family: 'Abril Fatface';
+	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-10 h3{
+#bloc-9 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-10 p{
+#bloc-9 p{
 	font-size: 18.000000953674316px;
 }
 #bloc-11 h2{
 	font-weight: 100;
-	font-family: 'Abril Fatface';
+	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-12 h3{
+#bloc-11 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-12 p{
+#bloc-11 p{
 	font-size: 18.000000953674316px;
 }
 #bloc-13 h2{
-	font-family: 'Abril Fatface';
+	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-14 h3{
+#bloc-13 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
 #bloc-15 p{
-	font-family: 'Abril Fatface';
+	font-family: Lato;
+	font-weight: 300;
 	font-size: 50px;
 }
-#bloc-16 h3{
+#bloc-15 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
+#bloc-15 h2{
+	font-size: 14px;
+}
+#bloc-16 p{
+	font-family: Domine;
+	font-size: 50px;
+}
 #bloc-17 h3{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 35px;
+}
+#bloc-19 h3{
 	font-weight: 700;
 	font-family: Lobster;
 }
@@ -356,6 +376,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	max-height: 200px;
 	margin: 0 5px 0 0;
 	display:inline;
+}
+.nav-center .navbar-brand img{
+	margin:0;
 }
 .navbar .nav{
 	padding-top: 2px;
@@ -423,6 +446,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 		width:100%;
 		margin-top:20px;
 	}
+.nav-center.mini-nav .navbar-toggle{
+	float:none;
+	margin: 10px auto 0;
+	}
 }
 .nav > li > .dropdown a{
 	background: none!important;
@@ -461,6 +488,9 @@ nav .caret{
 	margin-left:-4px;
 	background-color:inherit;
 	display: block;
+}
+.blocsapp-special-menu blocsnav{
+	background: #000;
 }
 
 /* = Bric adjustment margins
@@ -537,6 +567,9 @@ button{
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
+.sm-shadow{
+	text-shadow:0 1px 2px rgba(0,0,0,.3);
+}
 .lg-shadow{
 	text-shadow:0 2px 5px rgba(0,0,0,.5);
 }
@@ -681,6 +714,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc4{
 	background:linear-gradient(306deg, #8E6B2A, #794E05);
 }
+.St-Cuthbert{
+	background:linear-gradient(270deg, #442719, #000000);
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -723,6 +759,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Link colour styles */
 
+.ltc-champagne{
+	color:#FFDB9F!important;
+}
+.ltc-champagne:hover{
+	color:#ccaf7f!important;
+}
 .ltc-white{
 	color:#FFFFFF!important;
 }
@@ -771,6 +813,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-stone-wall-texture{
 	background-image:url("img/stone-wall-texture.jpg");
 }
+.bg-stone-wall-texture{
+	background-image:url("img/stone-wall-texture.jpg");
+}
+.bg-stone-wall-texture{
+	background-image:url("img/stone-wall-texture.jpg");
+}
+.bg-St-Cuthbert-gospel-cover{
+	background-image:url("img/St-Cuthbert-gospel-cover.jpg");
+}
 
 
 
@@ -802,6 +853,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
     .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
+    .bloc-group, .bloc-group .bloc{display:block;width:100%;}
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{padding-left: 10px;padding-right: 10px;}
 }
 @media (max-width: 767px)
 {
@@ -821,14 +874,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
     #hero-bloc h3{
         font-size:25px;
-    }
-    .bloc{
-        padding-left: 0; 
-        padding-right: 0;  
-        -webkit-background-size: auto 200%;
-        -moz-background-size: auto 200%;
-        -o-background-size: auto 200%;
-        background-size: auto 200%;
     }
     .b-parallax{
         background-attachment:scroll;
@@ -898,14 +943,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .nav-invert .navbar-toggle{
         float:left; 
     }
-    .bloc-group .bloc{
-         display:block;
-         width:100%;
-     }
-    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
-	   padding-left: 10px;
-	   padding-right: 10px;
-    }
     .bloc-xxl,.bloc-xl,.bloc-lg{
         padding: 40px 0;
     }
@@ -949,6 +986,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
 }
 
+@media (max-width: 400px)
+{    
+    .bloc{
+        padding-left: 0; 
+        padding-right: 0;  
+        -webkit-background-size: auto 200%;
+        -moz-background-size: auto 200%;
+        -o-background-size: auto 200%;
+        background-size: auto 200%;
+    }
+}
+
 @media (max-width: 767px){
 	
 /* Nav Special Classes */
@@ -963,12 +1012,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width: 100%!important;
 	z-index: 1000;
 }
- .nav-special .nav > li{
+.nav-special .nav > li{
 	width:100%;
 	background: none!important;
 	border:0!important;
 }
- .nav-special.collapsing{
+.nav-special.collapsing{
 	-webkit-transition: none;
 	transition: none;
 	height:100%!important;
@@ -1035,9 +1084,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .lock-scroll{
 	overflow:hidden;
 	transition: background .3s linear;
-}
-.blocsapp-special-menu blocsnav{
-	background: #000;
 }
 .nav-special::-webkit-scrollbar{
 	-webkit-appearance: none;
@@ -1113,22 +1159,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
  .sidebar-nav{
 	width:230px;
 }
+.nav-special.sidebar-nav .nav > li{
+	width:80%;
+}
 .nav-invert .sidebar-nav .close-special-menu{
 	left:200px;
 }
-#bloc-2 h3{
+#bloc-1 h3{
 	font-size: 50px;
 }
-#bloc-2 p{
+#bloc-1 p{
 	font-size: 20px;
 }
-#bloc-3 h3{
+#bloc-2 h3{
 	font-size: 30px;
 }
-#bloc-8 h1{
+#bloc-7 h1{
 	font-size: 60px;
 }
-#bloc-8 h3{
+#bloc-7 h3{
 	font-size: 20px;
 }
 }
