@@ -273,86 +273,86 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-1 h3{
+#bloc-2 h3{
 	font-weight: 100;
 	font-family: Lobster;
 	font-size: 90px;
 }
-#bloc-1 p{
+#bloc-2 p{
 	font-weight: 700;
 	font-family: Vollkorn;
 	font-size: 30px;
 }
-#bloc-2 h3{
+#bloc-3 h3{
 	font-family: 'Josefin Sans';
 	font-size: 50px;
 }
-#bloc-7 h1{
+#bloc-8 h1{
 	font-weight: 700;
 	font-family: Vollkorn;
 	font-size: 80px;
 }
-#bloc-7 h3{
+#bloc-8 h3{
 	font-size: 36px;
 }
-#bloc-9 h2{
+#bloc-10 h2{
 	font-weight: 300;
 	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-9 h3{
+#bloc-10 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-9 p{
+#bloc-10 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-11 h2{
+#bloc-12 h2{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-11 h3{
+#bloc-12 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-11 p{
+#bloc-12 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-13 h2{
+#bloc-14 h2{
 	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-13 h3{
+#bloc-14 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
-}
-#bloc-15 p{
-	font-family: Lato;
-	font-weight: 300;
-	font-size: 50px;
-}
-#bloc-15 h3{
-	font-family: Lato;
-	font-weight: 300;
-	font-size: 35px;
-}
-#bloc-15 h2{
-	font-size: 14px;
 }
 #bloc-16 p{
-	font-family: Domine;
+	font-family: Lato;
+	font-weight: 300;
 	font-size: 50px;
 }
-#bloc-17 h3{
+#bloc-16 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-20 h3{
+#bloc-16 h2{
+	font-size: 14px;
+}
+#bloc-17 p{
+	font-family: Domine;
+	font-size: 50px;
+}
+#bloc-18 h3{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 35px;
+}
+#bloc-21 h3{
 	font-weight: 700;
 	font-family: Lobster;
 }
@@ -1175,19 +1175,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .nav-invert .sidebar-nav .close-special-menu{
 	left:200px;
 }
-#bloc-1 h3{
+#bloc-2 h3{
 	font-size: 50px;
 }
-#bloc-1 p{
+#bloc-2 p{
 	font-size: 20px;
 }
-#bloc-2 h3{
+#bloc-3 h3{
 	font-size: 30px;
 }
-#bloc-7 h1{
+#bloc-8 h1{
 	font-size: 60px;
 }
-#bloc-7 h3{
+#bloc-8 h3{
 	font-size: 20px;
 }
 }
