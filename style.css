@@ -352,13 +352,35 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-21 h3{
-	font-family: Berkshire Swash;
+#bloc-19 h1{
+	font-family: 'PT Sans Narrow';
+	font-weight: 400;
 }
-#bloc-22 h3{
-	font-family: Berkshire Swash;
+#bloc-19 h2{
+	font-family: 'PT Sans Narrow';
+	font-weight: 400;
+}
+#bloc-20 h1{
+	font-weight: 100;
+	font-family: Josefin Slab;
+}
+#bloc-20 h2{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 30px;
+}
+#bloc-20 p{
+	font-family: 'PT Sans Narrow';
+	font-weight: 400;
+	font-size: 20px;
 }
 #bloc-23 h3{
+	font-family: Berkshire Swash;
+}
+#bloc-24 h3{
+	font-family: Berkshire Swash;
+}
+#bloc-25 h3{
 	font-weight: 700;
 	font-family: Lobster;
 }
@@ -519,6 +541,10 @@ nav .caret{
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
+}
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
 }
 
 /* = Buttons
@@ -713,11 +739,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:28px;
 	text-align:center;
 	font-weight:lighter;
-	background:linear-gradient(105deg, #8E3222, #E6E0B1);
+	background:linear-gradient(85deg, #FCF8FF, #FFFFFF);
 	border-style:none;
 	box-shadow:-14px -1px 30px rgba(61,61,61,0.6);
 	background-color:#FFFFFF;
 	background-position:left center;
+}
+.statement-bloc-text:hover{
 }
 .Bar2{
 	background:linear-gradient(346deg, #5A5A5A, #FFFFFF);
