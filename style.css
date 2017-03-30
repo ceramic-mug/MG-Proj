@@ -352,35 +352,44 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-19 h1{
-	font-family: 'PT Sans Narrow';
-	font-weight: 400;
-}
 #bloc-19 h2{
-	font-family: 'PT Sans Narrow';
-	font-weight: 400;
+	font-size: 80px;
+}
+#bloc-19 h3{
+	font-size: 50px;
+}
+#bloc-19 p{
+	font-size: 30px;
 }
 #bloc-20 h1{
+	font-family: 'PT Sans Narrow';
+	font-weight: 400;
+}
+#bloc-20 h2{
+	font-family: 'PT Sans Narrow';
+	font-weight: 400;
+}
+#bloc-21 h1{
 	font-weight: 100;
 	font-family: 'Josefin Slab';
 }
-#bloc-20 h2{
+#bloc-21 h2{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 30px;
 }
-#bloc-20 p{
+#bloc-21 p{
 	font-family: 'PT Sans Narrow';
 	font-weight: 400;
 	font-size: 20px;
-}
-#bloc-23 h3{
-	font-family: Berkshire Swash;
 }
 #bloc-24 h3{
 	font-family: Berkshire Swash;
 }
 #bloc-25 h3{
+	font-family: Berkshire Swash;
+}
+#bloc-26 h3{
 	font-weight: 700;
 	font-family: Lobster;
 }
@@ -630,6 +639,22 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 
 /* iFrame */
