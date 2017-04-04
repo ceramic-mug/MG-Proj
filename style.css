@@ -389,7 +389,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-25 h3{
 	font-family: Berkshire Swash;
 }
-#bloc-26 h3{
+#bloc-27 h3{
 	font-weight: 700;
 	font-family: Lobster;
 }
@@ -800,6 +800,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-burnt-umber{
 	background-color:#8F3222;
 }
+.bgc-champagne{
+	background-color:#FFDB9F;
+}
 /* Text colour styles */
 
 .tc-white{
@@ -830,12 +833,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Link colour styles */
 
-.ltc-champagne{
-	color:#FFDB9F!important;
-}
-.ltc-champagne:hover{
-	color:#ccaf7f!important;
-}
 .ltc-white{
 	color:#FFFFFF!important;
 }
