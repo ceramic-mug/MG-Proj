@@ -273,123 +273,123 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-2 h3{
+#bloc-1 h3{
 	font-weight: 100;
 	font-family: Lobster;
 	font-size: 90px;
 }
-#bloc-2 p{
+#bloc-1 p{
 	font-weight: 700;
 	font-family: Vollkorn;
 	font-size: 30px;
 }
-#bloc-3 h3{
+#bloc-2 h3{
 	font-family: 'Josefin Sans';
 	font-size: 50px;
 }
-#bloc-8 h1{
+#bloc-7 h1{
 	font-weight: 700;
 	font-family: Vollkorn;
 	font-size: 80px;
 }
-#bloc-8 h3{
+#bloc-7 h3{
 	font-size: 36px;
 }
-#bloc-10 h2{
+#bloc-9 h2{
 	font-weight: 300;
 	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-10 h3{
+#bloc-9 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-10 p{
+#bloc-9 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-12 h2{
+#bloc-11 h2{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-12 h3{
+#bloc-11 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-12 p{
+#bloc-11 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-14 h2{
+#bloc-13 h2{
 	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-14 h3{
+#bloc-13 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-16 p{
-	font-family: Lato;
-	font-weight: 300;
+#bloc-15 p{
 	font-size: 50px;
+	font-weight: 100;
+	font-family: Domine;
 }
-#bloc-16 h3{
+#bloc-15 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-16 h2{
+#bloc-15 h2{
 	font-size: 14px;
 }
 #bloc-17 p{
 	font-family: Domine;
 	font-size: 50px;
 }
-#bloc-18 h3{
+#bloc-17 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-19 h2{
+#bloc-18 h2{
 	font-size: 80px;
 }
-#bloc-19 h3{
+#bloc-18 h3{
 	font-size: 50px;
 }
-#bloc-19 p{
+#bloc-18 p{
 	font-size: 30px;
 }
+#bloc-19 h1{
+	font-family: 'PT Sans Narrow';
+	font-weight: 400;
+}
+#bloc-19 h2{
+	font-family: 'PT Sans Narrow';
+	font-weight: 400;
+}
 #bloc-20 h1{
-	font-family: 'PT Sans Narrow';
-	font-weight: 400;
-}
-#bloc-20 h2{
-	font-family: 'PT Sans Narrow';
-	font-weight: 400;
-}
-#bloc-21 h1{
 	font-weight: 100;
 	font-family: 'Josefin Slab';
 }
-#bloc-21 h2{
+#bloc-20 h2{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 30px;
 }
-#bloc-21 p{
+#bloc-20 p{
 	font-family: 'PT Sans Narrow';
 	font-weight: 400;
 	font-size: 20px;
 }
+#bloc-23 h3{
+	font-family: Berkshire Swash;
+}
 #bloc-24 h3{
 	font-family: Berkshire Swash;
 }
-#bloc-25 h3{
-	font-family: Berkshire Swash;
-}
-#bloc-27 h3{
+#bloc-26 h3{
 	font-weight: 700;
 	font-family: Lobster;
 }
@@ -1233,19 +1233,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .nav-invert .sidebar-nav .close-special-menu{
 	left:200px;
 }
-#bloc-2 h3{
+#bloc-1 h3{
 	font-size: 50px;
 }
-#bloc-2 p{
+#bloc-1 p{
 	font-size: 20px;
 }
-#bloc-3 h3{
+#bloc-2 h3{
 	font-size: 30px;
 }
-#bloc-8 h1{
+#bloc-7 h1{
 	font-size: 60px;
 }
-#bloc-8 h3{
+#bloc-7 h3{
 	font-size: 20px;
 }
 }
