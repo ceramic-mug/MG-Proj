@@ -45,9 +45,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bloc-lg{
 	padding:100px 50px;
 }
-.bloc-sm{
-	padding:20px 50px;
-}
 
 /* = Full Screen Blocs 
 -------------------------------------------------------------- */
@@ -273,19 +270,20 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-1 h3{
-	font-weight: 100;
-	font-family: Lobster;
-	font-size: 90px;
+#bloc-0 h1{
+	font-size: 70px;
+	font-family: Josefin Sans;
 }
-#bloc-1 p{
-	font-weight: 700;
-	font-family: Vollkorn;
-	font-size: 30px;
-}
-#bloc-2 h3{
+#beoquote-home h3{
 	font-family: 'Josefin Sans';
 	font-size: 50px;
+}
+#bloc-2 h2{
+	font-family: 'Berkshire Swash';
+	font-size: 40px;
+}
+#bloc-2 p{
+	font-size: 17.000000953674316px;
 }
 #bloc-7 h1{
 	font-weight: 700;
@@ -331,9 +329,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 35px;
 }
 #bloc-15 p{
-	font-size: 50px;
 	font-weight: 100;
 	font-family: Domine;
+	font-size: 50px;
 }
 #bloc-15 h3{
 	font-family: Lato;
@@ -527,15 +525,6 @@ nav .caret{
 	box-shadow:0 1px 2px rgba(0,0,0,.3);
 	 transition: all .2s ease-out;
 }
-/* List Menu Icon */
-.navbar-toggle.menu-icon-normal-list .icon-bar:before{
-	content:"";
-	width:2px;
-	height:2px;
-	margin-left:-4px;
-	background-color:inherit;
-	display: block;
-}
 .blocsapp-special-menu blocsnav{
 	background: #000;
 }
@@ -588,14 +577,6 @@ button{
 	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
 	background-image: linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
 }
-.btn-wire{
-	background:transparent!important;
-	border:2px solid transparent;
-}
-.btn-wire:hover{
-	background:transparent!important;
-	border:2px solid transparent;
-}
 .a-btn{
 	padding: 6px 10px 6px 0;
 	line-height: 1.42857143;
@@ -623,6 +604,15 @@ button{
 }
 .lg-shadow{
 	text-shadow:0 2px 5px rgba(0,0,0,.5);
+}
+/* = Text Widths
+-------------------------------------------------------------- */
+.text-w-70{
+	max-width:70%;
+}
+.text-center.text-w-sm, .text-center.text-w-md, .text-center.text-w-lg, .text-center.text-w-90, .text-center.text-w-80, .text-center.text-w-70, .text-center.text-w-60, .text-center.text-w-50{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -788,6 +778,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .St-Cuthbert{
 	background:linear-gradient(270deg, #442719, #000000);
 }
+.beoquote-home{
+	background-color:rgba(0,0,0,0.0);
+	display:block;
+	overflow:scroll;
+	background-image:url("img/Sutton Hoo Helmet.jpg");
+	background-position:left center;
+	background-size:100% auto;
+	float:right;
+}
+.valley-hero-text-s{
+	font-size:60px;
+}
+.valley-hero-text-sub-s{
+	font-size:34px;
+}
+.hero-text-vc{
+	margin-top:50%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -827,10 +835,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#cccccc;
 	color:rgba(0,0,0,.5)!important;
 }
-.wire-btn-champagne{
-	color:#FFDB9F!important;
-	border-color:#FFDB9F!important;
-}
 /* Link colour styles */
 
 .ltc-white{
@@ -839,11 +843,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-white:hover{
 	color:#cccccc!important;
 }
+.ltc-black{
+	color:#000000!important;
+}
+.ltc-black:hover{
+	color:#000000!important;
+}
 
 /* Bloc image backgrounds */
 
-.bg-tile-d-bg{
-	background-image:url("img/tile-d-bg.png");
+.bg-squared-d-bg{
+	background-image:url("img/squared-d-bg.png");
 }
 .bg-forrest{
 	background-image:url("img/forrest.jpg");
@@ -857,14 +867,23 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-Culture-20thin{
 	background-image:url("img/Culture%20thin.jpg");
 }
-.bg-stone-wall-texture{
-	background-image:url("img/stone-wall-texture.jpg");
+.bg-shepherd-sheep-12{
+	background-image:url("img/shepherd-sheep-12.jpg");
+}
+.bg-shepherd-sheep-12{
+	background-image:url("img/shepherd-sheep-12.jpg");
+}
+.bg-mossy-stone-wall-joe-k{
+	background-image:url("img/mossy-stone-wall-joe-k.jpg");
 }
 .bg-03bayeux{
 	background-image:url("img/03bayeux.jpg");
 }
 .bg-Fuller-20Brooch{
 	background-image:url("img/Fuller%20Brooch.jpg");
+}
+.bg-Sutton-20Hoo{
+	background-image:url("img/Sutton%20Hoo.jpg");
 }
 .bg-Bayeux-20Rectangls{
 	background-image:url("img/Bayeux%20Rectangls.jpg");
@@ -878,17 +897,29 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-Reliquary-20Cross2{
 	background-image:url("img/Reliquary%20Cross2.jpg");
 }
-.bg-stone-wall-texture{
-	background-image:url("img/stone-wall-texture.jpg");
-}
-.bg-stone-wall-texture{
-	background-image:url("img/stone-wall-texture.jpg");
-}
-.bg-stone-wall-texture{
-	background-image:url("img/stone-wall-texture.jpg");
-}
 .bg-St-Cuthbert-gospel-cover{
 	background-image:url("img/St-Cuthbert-gospel-cover.jpg");
+}
+.bg-squared-d-bg{
+	background-image:url('img/squared-d-bg.png');
+}
+.bg-mossy-stone-wall-joe-k{
+	background-image:url('img/mossy-stone-wall-joe-k.jpg');
+}
+.bg-Peterborough-Chronicle-firstpage{
+	background-image:url('img/Peterborough.Chronicle.firstpage.jpg');
+}
+.bg-shepherd-sheep-12{
+	background-image:url('img/shepherd-sheep-12.jpg');
+}
+.bg-03bayeux{
+	background-image:url('img/03bayeux.jpg');
+}
+.bg-Franks-Casket-rear{
+	background-image:url('img/Franks_Casket_rear.jpg');
+}
+.bg-Sutton-20Hoo{
+	background-image:url('img/Sutton%20Hoo.jpg');
 }
 
 
@@ -1066,6 +1097,46 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
 }
 
+@media (max-width: 768px){
+	.hero-text-vc, .mobile .hero-text-vc{
+	margin-top:10%;
+}
+ }
+/* Drop Down Navigation */
+@media (min-width: 767px) and (max-width: 768px){
+	
+.mini-nav .special-dropdown-nav .site-navigation{
+	display: block;
+	position: absolute;
+	top: 80%;
+	z-index: 1000;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.mini-nav .special-dropdown-nav .site-navigation li{
+	width:100%;
+}
+.special-dropdown-nav.collapsing{
+	transition: height 0.001s;
+}
+.mini-nav .special-dropdown-nav .site-navigation li a{
+	color: rgba(0,0,0,.6)!important;
+}
+ }
+
 @media (max-width: 767px){
 	
 /* Nav Special Classes */
@@ -1224,6 +1295,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:20%;
 	height:2%;
 }
+.beoquote-home{
+	width:100%;
+}
+.hero-text-vc{
+	margin-top:0px;
+}
  .sidebar-nav{
 	width:230px;
 }
@@ -1233,13 +1310,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .nav-invert .sidebar-nav .close-special-menu{
 	left:200px;
 }
-#bloc-1 h3{
-	font-size: 50px;
-}
-#bloc-1 p{
-	font-size: 20px;
-}
-#bloc-2 h3{
+#beoquote-home h3{
 	font-size: 30px;
 }
 #bloc-7 h1{
