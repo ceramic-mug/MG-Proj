@@ -45,6 +45,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bloc-lg{
 	padding:100px 50px;
 }
+.bloc-sm{
+	padding:20px 50px;
+}
 
 /* = Full Screen Blocs 
 -------------------------------------------------------------- */
@@ -113,28 +116,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 
-/* Group Styles */
-
-.bloc-group{
-	display:flex;
-}
-.bloc-group .bloc{
-	flex: 1;
-}
-.bloc-tile-2{
-	width:50%;
-}
-.bloc-tile-3{
-	width:33.33333333%;
-}
-.bloc-tile-4{
-	width:25%;
-}
-.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
-	width:100%;
-}
-
-
 /* Background Styles */
 
 .bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
@@ -142,9 +123,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	-moz-background-size: auto!important;
 	-o-background-size: auto!important;
 	background-size: auto!important;
-}
-.bg-center{
-	-webkit-background-size: auto;
 }
 .bg-repeat{
 	background:repeat;
@@ -257,6 +235,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset-lg{
+	margin-top:80px;
+}
+
 /* Column No Gutters */
 
 .row-no-gutters{
@@ -270,27 +254,49 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-0 h1{
+#bloc-1 h1{
+	font-family: 'Josefin Sans';
 	font-size: 70px;
-	font-family: Josefin Sans;
 }
 #beoquote-home h3{
 	font-family: 'Josefin Sans';
 	font-size: 50px;
 }
-#bloc-2 h2{
+#experience-art h2{
 	font-family: 'Berkshire Swash';
 	font-size: 40px;
 }
-#bloc-2 p{
+#experience-art p{
 	font-size: 17.000000953674316px;
+}
+#bloc-4 h2{
+	font-family: 'Berkshire Swash';
+	font-size: 40px;
+}
+#bloc-4 p{
+	font-size: 17px;
+}
+#bloc-5 h2{
+	font-family: 'Berkshire Swash';
+	font-size: 40px;
+}
+#bloc-5 p{
+	font-size: 17px;
+}
+#bloc-6 h2{
+	font-family: 'Berkshire Swash';
+	font-size: 40px;
+}
+#bloc-6 p{
+	font-size: 17px;
 }
 #bloc-7 h1{
 	font-weight: 700;
-	font-family: Vollkorn;
+	font-family: 'Josefin Sans';
 	font-size: 80px;
 }
 #bloc-7 h3{
+	font-family: 'Josefin Sans';
 	font-size: 36px;
 }
 #bloc-9 h2{
@@ -350,46 +356,80 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 300;
 	font-size: 35px;
 }
-#bloc-18 h2{
+#bloc-18 h1{
+	font-family: 'Josefin Sans';
 	font-size: 80px;
-}
-#bloc-18 h3{
-	font-size: 50px;
 }
 #bloc-18 p{
 	font-size: 30px;
 }
-#bloc-19 h1{
-	font-family: 'PT Sans Narrow';
-	font-weight: 400;
-}
 #bloc-19 h2{
-	font-family: 'PT Sans Narrow';
-	font-weight: 400;
+	font-family: 'Berkshire Swash';
+	font-size: 80px;
+}
+#bloc-19 h3{
+	font-family: 'Josefin Sans';
+	font-size: 50px;
+}
+#bloc-19 p{
+	font-family: Domine;
+	font-size: 30px;
 }
 #bloc-20 h1{
+	font-family: 'Josefin Sans';
+	font-size: 80px;
+}
+#bloc-20 p{
+	font-size: 30px;
+}
+#bloc-21 h1{
+	font-family: 'PT Sans Narrow';
+	font-weight: 400;
+}
+#bloc-21 h2{
+	font-family: 'PT Sans Narrow';
+	font-weight: 400;
+}
+#bloc-22 h1{
 	font-weight: 100;
 	font-family: 'Josefin Slab';
 }
-#bloc-20 h2{
+#bloc-22 h2{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 30px;
 }
-#bloc-20 p{
+#bloc-22 p{
 	font-family: 'PT Sans Narrow';
 	font-weight: 400;
 	font-size: 20px;
 }
-#bloc-23 h3{
+#bloc-25 h3{
 	font-family: Berkshire Swash;
 }
-#bloc-24 h3{
+#bloc-27 h1{
+	font-family: 'Josefin Sans';
+	font-size: 80px;
+}
+#bloc-27 p{
+	font-size: 40px;
+}
+#bloc-28 h1{
+	font-family: Josefin Sans;
+}
+#bloc-30 h1{
+	font-family: Josefin Sans;
+}
+#bloc-30 h3{
 	font-family: Berkshire Swash;
 }
-#bloc-26 h3{
+#bloc-30 p{
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+}
+#bloc-31 h3{
 	font-weight: 700;
-	font-family: Lobster;
+	font-family: Domine;
 }
 
 /* = NavBar
@@ -515,16 +555,6 @@ nav .caret{
 	margin: 6px -5px 0 0!important;
 	float: right;
 }
-/* = Sticky Nav
--------------------------------------------------------------- */
-
-.sticky-nav.sticky{
-	position:fixed;
-	top:0;
-	z-index:1000;
-	box-shadow:0 1px 2px rgba(0,0,0,.3);
-	 transition: all .2s ease-out;
-}
 .blocsapp-special-menu blocsnav{
 	background: #000;
 }
@@ -564,19 +594,6 @@ button{
 	outline: none!important;
 }
 
-.btn-rd{
-	border-radius: 40px;
-}
-.btn-glossy{
-	border:1px solid rgba(0,0,0,.09);
-	border-bottom-color:rgba(0,0,0,.2);
-	text-shadow:0 1px 0 rgba(0,0,1,.2);
-	box-shadow: 0 1px 3px rgba(0,0,1,.35), inset 0 1px 0 0 rgba(255,255,255,.4), inset 0 1px 0 2px rgba(255,255,255,.08);
-	background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
-	 background-image: -o-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
-	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
-	background-image: linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
-}
 .a-btn{
 	padding: 6px 10px 6px 0;
 	line-height: 1.42857143;
@@ -596,6 +613,16 @@ button{
 }
 
 
+/*  Rounded Image */
+.img-rd{
+	border-radius:6px;
+}
+.img-rd-md{
+	border-radius:20px;
+}
+.img-rd-lg{
+	border-radius:34px;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -796,6 +823,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .hero-text-vc{
 	margin-top:50%;
 }
+.crossbar1{
+	font-family:"Berkshire Swash";
+	background:linear-gradient(41deg, #004800, #170403);
+}
+.historyhero{
+	background:linear-gradient(49deg, #120C23, #A87F29);
+}
+.culturebric{
+	background:linear-gradient(43deg, #7E81CC, #000000);
+}
+.litbanner{
+	background:linear-gradient(42deg, rgba(227,0,0,0.4), #000000);
+}
+.culturehero{
+	background:linear-gradient(0deg, #900000, #FFFFFF);
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -811,6 +854,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-champagne{
 	background-color:#FFDB9F;
 }
+.bgc-gray-x11-gray{
+	background-color:#B9BBBB;
+}
 /* Text colour styles */
 
 .tc-white{
@@ -825,29 +871,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-burnt-umber{
 	color:#8F3222!important;
 }
-/* Button colour styles */
-
-.btn-white{
-	background:#FFFFFF;
-	color:rgba(0,0,0,.5)!important;
-}
-.btn-white:hover{
-	background:#cccccc;
-	color:rgba(0,0,0,.5)!important;
-}
 /* Link colour styles */
 
+.ltc-champagne{
+	color:#FFDB9F!important;
+}
+.ltc-champagne:hover{
+	color:#ccaf7f!important;
+}
 .ltc-white{
 	color:#FFFFFF!important;
 }
 .ltc-white:hover{
 	color:#cccccc!important;
-}
-.ltc-black{
-	color:#000000!important;
-}
-.ltc-black:hover{
-	color:#000000!important;
 }
 
 /* Bloc image backgrounds */
@@ -855,29 +891,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-squared-d-bg{
 	background-image:url("img/squared-d-bg.png");
 }
-.bg-forrest{
-	background-image:url("img/forrest.jpg");
-}
-.bg-03bayeux{
-	background-image:url("img/03bayeux.jpg");
-}
-.bg-Peterborough-Chronicle-firstpage{
-	background-image:url("img/Peterborough.Chronicle.firstpage.jpg");
-}
-.bg-Culture-20thin{
-	background-image:url("img/Culture%20thin.jpg");
-}
-.bg-shepherd-sheep-12{
-	background-image:url("img/shepherd-sheep-12.jpg");
-}
-.bg-shepherd-sheep-12{
-	background-image:url("img/shepherd-sheep-12.jpg");
-}
 .bg-mossy-stone-wall-joe-k{
 	background-image:url("img/mossy-stone-wall-joe-k.jpg");
-}
-.bg-03bayeux{
-	background-image:url("img/03bayeux.jpg");
 }
 .bg-Fuller-20Brooch{
 	background-image:url("img/Fuller%20Brooch.jpg");
@@ -901,25 +916,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/St-Cuthbert-gospel-cover.jpg");
 }
 .bg-squared-d-bg{
-	background-image:url('img/squared-d-bg.png');
+	background-image:url("img/squared-d-bg.png");
 }
 .bg-mossy-stone-wall-joe-k{
-	background-image:url('img/mossy-stone-wall-joe-k.jpg');
+	background-image:url("img/mossy-stone-wall-joe-k.jpg");
 }
-.bg-Peterborough-Chronicle-firstpage{
-	background-image:url('img/Peterborough.Chronicle.firstpage.jpg');
+.bg-Franks-Casket-rear{
+	background-image:url("img/Franks_Casket_rear.jpg");
 }
-.bg-shepherd-sheep-12{
-	background-image:url('img/shepherd-sheep-12.jpg');
-}
-.bg-03bayeux{
-	background-image:url('img/03bayeux.jpg');
+.bg-Sutton-20Hoo{
+	background-image:url("img/Sutton%20Hoo.jpg");
 }
 .bg-Franks-Casket-rear{
 	background-image:url('img/Franks_Casket_rear.jpg');
 }
-.bg-Sutton-20Hoo{
-	background-image:url('img/Sutton%20Hoo.jpg');
+.bg-mossy-stone-wall-joe-k{
+	background-image:url('img/mossy-stone-wall-joe-k.jpg');
 }
 
 
