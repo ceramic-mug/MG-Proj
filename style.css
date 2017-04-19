@@ -353,14 +353,16 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-15 h2{
 	font-size: 14px;
 }
-#bloc-17 p{
+#bloc-17 h1{
 	font-family: Domine;
-	font-size: 50px;
 }
 #bloc-17 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 35px;
+}
+#bloc-17 p{
+	font-size: 15px;
 }
 #bloc-18 h1{
 	font-family: 'Josefin Sans';
