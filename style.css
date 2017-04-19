@@ -873,17 +873,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Link colour styles */
 
-.ltc-champagne{
-	color:#FFDB9F!important;
-}
-.ltc-champagne:hover{
-	color:#ccaf7f!important;
-}
 .ltc-white{
 	color:#FFFFFF!important;
 }
 .ltc-white:hover{
 	color:#cccccc!important;
+}
+.ltc-champagne{
+	color:#FFDB9F!important;
+}
+.ltc-champagne:hover{
+	color:#ccaf7f!important;
 }
 
 /* Bloc image backgrounds */
