@@ -255,8 +255,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #bloc-1 h1{
-	font-family: 'Josefin Sans';
 	font-size: 70px;
+	font-family: Josefin Sans;
 }
 #beoquote-home h3{
 	font-family: 'Josefin Sans';
@@ -802,6 +802,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc4{
 	background:linear-gradient(306deg, #8E6B2A, #794E05);
 }
+.bar3{
+	background:linear-gradient(31deg, #000000, #FFFFFF);
+}
 .St-Cuthbert{
 	background:linear-gradient(270deg, #442719, #000000);
 }
@@ -825,16 +828,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .crossbar1{
 	font-family:"Berkshire Swash";
-	background:linear-gradient(41deg, #004800, #170403);
+	background:linear-gradient(44deg, #004800, #170403);
 }
 .historyhero{
 	background:linear-gradient(49deg, #120C23, #A87F29);
 }
 .culturebric{
-	background:linear-gradient(43deg, #7E81CC, #000000);
+	background:linear-gradient(42deg, #7E81CC, #000000);
 }
 .litbanner{
-	background:linear-gradient(42deg, rgba(227,0,0,0.4), #000000);
+	background:linear-gradient(43deg, rgba(227,0,0,0.4), #000000);
 }
 .culturehero{
 	background:linear-gradient(0deg, #900000, #FFFFFF);
